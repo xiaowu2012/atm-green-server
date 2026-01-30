@@ -3,7 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="Server"
-	ProjectGUID="{48F1A95A-8501-4E93-85B5-E064724E3EAD}"
+	ProjectGUID="{E49F0F43-5D33-4BB8-A0D6-B2B78240E1FE}"
 	SccProjectName="&quot;$/드로이얀서버&quot;, VIAAAAAA"
 	SccLocalPath="."
 	Keyword="MFCProj"
@@ -77,7 +77,7 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="ws2_32.lib ./LibsIncs/JvCryption.lib"
-				OutputFile=".\Release/ATMServer.exe"
+				OutputFile=".\Release/Server.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
 				IgnoreDefaultLibraryNames="LIBC"
