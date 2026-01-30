@@ -1,0 +1,1829 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Server - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD2D.tmp" with contents
+[
+ws2_32.lib ./LibsIncs/JvCryptionD.lib /nologo /subsystem:windows /incremental:yes /pdb:"d:\droiyan\DRCN_SERVER/Server.pdb" /debug /machine:I386 /nodefaultlib:"LIBC" /out:"e:\DRCN_SERVER/Server.exe" /pdbtype:sept 
+".\Debug\AccessoriUpTable.obj"
+".\Debug\AccessoriUpTableSet.obj"
+".\Debug\AddEventItemTableSet.obj"
+".\Debug\BoxEventTable.obj"
+".\Debug\BoxEventTableSet.obj"
+".\Debug\BufferEx.obj"
+".\Debug\CBSocket.obj"
+".\Debug\CELL.obj"
+".\Debug\CircularBuffer.obj"
+".\Debug\CityNpcTableSet.obj"
+".\Debug\COM.obj"
+".\Debug\Compress.obj"
+".\Debug\DBItemInfo.obj"
+".\Debug\DNTable.obj"
+".\Debug\DNTableSet.obj"
+".\Debug\DressingSet.obj"
+".\Debug\EBodyIdentifyTable.obj"
+".\Debug\EBodyIdentifyTableSet.obj"
+".\Debug\EBodyStoreSet.obj"
+".\Debug\EBodyTable.obj"
+".\Debug\EBodyTableSet.obj"
+".\Debug\EBodyUpgradeTable.obj"
+".\Debug\EBodyUpgradeTableSet.obj"
+".\Debug\ErrorLog.obj"
+".\Debug\EVENT.obj"
+".\Debug\EVENT_DATA.obj"
+".\Debug\EventBlockingTable.obj"
+".\Debug\EventItemNew.obj"
+".\Debug\EventItemTable.obj"
+".\Debug\EventItemTableSet.obj"
+".\Debug\EventZone.obj"
+".\Debug\EXEC.obj"
+".\Debug\global.obj"
+".\Debug\Guild.obj"
+".\Debug\GuildFortress.obj"
+".\Debug\GuildFortressSet.obj"
+".\Debug\GuildFortressTaxSet.obj"
+".\Debug\GuildHouse.obj"
+".\Debug\GuildHouseRankSet.obj"
+".\Debug\GuildHouseSet.obj"
+".\Debug\GuildHouseWar.obj"
+".\Debug\GuildMapInfoSet.obj"
+".\Debug\GuildMapInfoTable.obj"
+".\Debug\GuildStoreSet.obj"
+".\Debug\GuildStoreTable.obj"
+".\Debug\GuildUser.obj"
+".\Debug\Hyper.obj"
+".\Debug\InitItemTableSet.obj"
+".\Debug\IOCPBASE.OBJ"
+".\Debug\IOCPSocket.obj"
+".\Debug\Item.obj"
+".\Debug\ItemTable.obj"
+".\Debug\ItemTableSet.obj"
+".\Debug\LevelUpTable.obj"
+".\Debug\LevelUpTableSet.obj"
+".\Debug\LOGIC.obj"
+".\Debug\LOGIC_ELSE.obj"
+".\Debug\MagicItemTable.obj"
+".\Debug\MagicItemTableSet.obj"
+".\Debug\MAP.obj"
+".\Debug\MechanicStoreSet.obj"
+".\Debug\MemUser.obj"
+".\Debug\MonsterPsiSet.obj"
+".\Debug\MyDB.obj"
+".\Debug\Npc.obj"
+".\Debug\NpcChat.obj"
+".\Debug\NpcChatSet.obj"
+".\Debug\NpcItem.obj"
+".\Debug\NpcItemSet.obj"
+".\Debug\NpcPosSet.obj"
+".\Debug\NpcSayEventSet.obj"
+".\Debug\NpcSayTable.obj"
+".\Debug\NpcTable.obj"
+".\Debug\NpcTableSet.obj"
+".\Debug\NpcThread.obj"
+".\Debug\PAMAExp.obj"
+".\Debug\PAMAExpSet.obj"
+".\Debug\Path.obj"
+".\Debug\PathFind.obj"
+".\Debug\PoolBase.obj"
+".\Debug\PsiStoreSet.obj"
+".\Debug\PsiTable.obj"
+".\Debug\PsiTableSet.obj"
+".\Debug\Recover.obj"
+".\Debug\RecoverRate.obj"
+".\Debug\RecoverRateSet.obj"
+".\Debug\RecoverSet.obj"
+".\Debug\Remodeling02TableSet.obj"
+".\Debug\Remodeling03TableSet.obj"
+".\Debug\RemodelingTable.obj"
+".\Debug\RemodelingTableSet.obj"
+".\Debug\RoyalRumble.obj"
+".\Debug\RoyalRumbleUser.obj"
+".\Debug\Search.obj"
+".\Debug\Server.obj"
+".\Debug\ServerDlg.obj"
+".\Debug\ServerDlg2.obj"
+".\Debug\SERVERINFO.obj"
+".\Debug\SharedMemory.obj"
+".\Debug\SharedQueue.obj"
+".\Debug\sinstance.obj"
+".\Debug\SkillTable.obj"
+".\Debug\SkillTableSet.obj"
+".\Debug\SocketManager.obj"
+".\Debug\SResourceArray.obj"
+".\Debug\SSocket.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Store.obj"
+".\Debug\StoreRepairSet.obj"
+".\Debug\StoreSellSet.obj"
+".\Debug\StoreSet.obj"
+".\Debug\SummonTable.obj"
+".\Debug\TableItem.obj"
+".\Debug\ThrowItem.obj"
+".\Debug\TownPotalTableSet.obj"
+".\Debug\UNI_CHAR.obj"
+".\Debug\UResourceArray.obj"
+".\Debug\USER.obj"
+".\Debug\USER2.obj"
+".\Debug\UserLevelUpSet.obj"
+".\Debug\UserLevelUpTable.obj"
+".\Debug\UserManager.obj"
+".\Debug\ValItemTable.obj"
+".\Debug\ValItemTableSet.obj"
+".\Debug\VirtualRoom.obj"
+".\Debug\ZoneInfoSet.obj"
+".\Debug\Server.res"
+".\IMPLODE.LIB"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD2D.tmp"
+<h3>Output Window</h3>
+Linking...
+nafxcwd.lib(array_w.obj) : warning LNK4078: multiple ".CRT" sections found with different attributes (C0300040)
+LINK : warning LNK4098: defaultlib "LIBCD" conflicts with use of other libs; use /NODEFAULTLIB:library
+ValItemTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+UResourceArray.obj : error LNK2001: unresolved external symbol ___security_cookie
+USER.obj : error LNK2001: unresolved external symbol ___security_cookie
+USER2.obj : error LNK2001: unresolved external symbol ___security_cookie
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+StoreSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+SummonTable.obj : error LNK2001: unresolved external symbol ___security_cookie
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+UNI_CHAR.obj : error LNK2001: unresolved external symbol ___security_cookie
+StdAfx.obj : error LNK2001: unresolved external symbol ___security_cookie
+Store.obj : error LNK2001: unresolved external symbol ___security_cookie
+StoreRepairSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+StoreSellSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+SkillTable.obj : error LNK2001: unresolved external symbol ___security_cookie
+SkillTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+SResourceArray.obj : error LNK2001: unresolved external symbol ___security_cookie
+SSocket.obj : error LNK2001: unresolved external symbol ___security_cookie
+ServerDlg.obj : error LNK2001: unresolved external symbol ___security_cookie
+ServerDlg2.obj : error LNK2001: unresolved external symbol ___security_cookie
+SERVERINFO.obj : error LNK2001: unresolved external symbol ___security_cookie
+sinstance.obj : error LNK2001: unresolved external symbol ___security_cookie
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+RoyalRumble.obj : error LNK2001: unresolved external symbol ___security_cookie
+Server.obj : error LNK2001: unresolved external symbol ___security_cookie
+PsiTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+RecoverRateSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+RecoverSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+Path.obj : error LNK2001: unresolved external symbol ___security_cookie
+PathFind.obj : error LNK2001: unresolved external symbol ___security_cookie
+PoolBase.obj : error LNK2001: unresolved external symbol ___security_cookie
+PsiStoreSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+NpcSayTable.obj : error LNK2001: unresolved external symbol ___security_cookie
+NpcTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+PAMAExpSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+Npc.obj : error LNK2001: unresolved external symbol ___security_cookie
+NpcChatSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+NpcItemSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+NpcPosSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+MemUser.obj : error LNK2001: unresolved external symbol ___security_cookie
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+MyDB.obj : error LNK2001: unresolved external symbol ___security_cookie
+LOGIC.obj : error LNK2001: unresolved external symbol ___security_cookie
+LOGIC_ELSE.obj : error LNK2001: unresolved external symbol ___security_cookie
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+MAP.obj : error LNK2001: unresolved external symbol ___security_cookie
+IOCPBASE.OBJ : error LNK2001: unresolved external symbol ___security_cookie
+IOCPSocket.obj : error LNK2001: unresolved external symbol ___security_cookie
+ItemTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+GuildStoreSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+Hyper.obj : error LNK2001: unresolved external symbol ___security_cookie
+InitItemTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+GuildHouse.obj : error LNK2001: unresolved external symbol ___security_cookie
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+GuildHouseSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+GuildHouseWar.obj : error LNK2001: unresolved external symbol ___security_cookie
+Guild.obj : error LNK2001: unresolved external symbol ___security_cookie
+GuildFortress.obj : error LNK2001: unresolved external symbol ___security_cookie
+GuildFortressSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+EventItemTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+EventZone.obj : error LNK2001: unresolved external symbol ___security_cookie
+EXEC.obj : error LNK2001: unresolved external symbol ___security_cookie
+global.obj : error LNK2001: unresolved external symbol ___security_cookie
+ErrorLog.obj : error LNK2001: unresolved external symbol ___security_cookie
+EVENT.obj : error LNK2001: unresolved external symbol ___security_cookie
+EVENT_DATA.obj : error LNK2001: unresolved external symbol ___security_cookie
+EventBlockingTable.obj : error LNK2001: unresolved external symbol ___security_cookie
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+EBodyTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+Compress.obj : error LNK2001: unresolved external symbol ___security_cookie
+DBItemInfo.obj : error LNK2001: unresolved external symbol ___security_cookie
+DNTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+DressingSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+CBSocket.obj : error LNK2001: unresolved external symbol ___security_cookie
+CELL.obj : error LNK2001: unresolved external symbol ___security_cookie
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+COM.obj : error LNK2001: unresolved external symbol ___security_cookie
+AccessoriUpTable.obj : error LNK2001: unresolved external symbol ___security_cookie
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol ___security_cookie
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+USER.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+USER2.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+ValItemTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+SummonTable.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+UNI_CHAR.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+UResourceArray.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+Store.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+StoreRepairSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+StoreSellSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+StoreSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+SkillTable.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+SkillTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+SResourceArray.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+StdAfx.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+ServerDlg.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+ServerDlg2.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+SERVERINFO.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+sinstance.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+RoyalRumble.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+Server.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+PsiTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+RecoverRateSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+RecoverSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+Path.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+PathFind.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+PoolBase.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+PsiStoreSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+NpcSayTable.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+NpcTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+PAMAExpSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+Npc.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+NpcChatSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+NpcItemSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+NpcPosSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+MemUser.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+MyDB.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+ItemTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+MAP.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+Hyper.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+InitItemTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+IOCPBASE.OBJ : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+IOCPSocket.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+GuildHouseSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+GuildHouseWar.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+GuildStoreSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+GuildFortress.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+GuildFortressSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+EventItemTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+EventZone.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+global.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+Guild.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+ErrorLog.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+EVENT.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+EVENT_DATA.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+EventBlockingTable.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+EBodyTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+Compress.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+DBItemInfo.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+DNTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+DressingSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+CBSocket.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+CELL.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+COM.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+AccessoriUpTable.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol ___CxxFrameHandler3
+ValItemTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+UResourceArray.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+USER.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+USER2.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+StoreSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+SummonTable.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+UNI_CHAR.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+StdAfx.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Store.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+StoreRepairSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+StoreSellSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+SkillTable.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+SkillTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+SResourceArray.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+SSocket.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+ServerDlg.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+ServerDlg2.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+SERVERINFO.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+sinstance.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+RoyalRumble.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Server.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+PsiTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+RecoverRateSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+RecoverSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Path.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+PathFind.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+PoolBase.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+PsiStoreSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+NpcSayTable.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+NpcTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+PAMAExpSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Npc.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+NpcChatSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+NpcItemSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+NpcPosSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+MemUser.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+MyDB.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+LOGIC.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+LOGIC_ELSE.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+MAP.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+IOCPBASE.OBJ : error LNK2001: unresolved external symbol @__security_check_cookie@4
+IOCPSocket.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+ItemTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+GuildStoreSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Hyper.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+InitItemTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+GuildHouse.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+GuildHouseSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+GuildHouseWar.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Guild.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+GuildFortress.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+GuildFortressSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+EventItemTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+EventZone.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+EXEC.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+global.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+ErrorLog.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+EVENT.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+EVENT_DATA.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+EventBlockingTable.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+EBodyTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+Compress.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+DBItemInfo.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+DNTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+DressingSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+CBSocket.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+CELL.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+COM.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+AccessoriUpTable.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol @__security_check_cookie@4
+ValItemTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+ValItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+VirtualRoom.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+USER2.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+UserLevelUpTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+UserManager.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+UNI_CHAR.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+UResourceArray.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+USER.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+StoreSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+SummonTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+TableItem.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+ThrowItem.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+StdAfx.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Store.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+StoreRepairSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+StoreSellSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+SkillTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+SocketManager.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+SResourceArray.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+SSocket.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+SharedMemory.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+SharedQueue.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+sinstance.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+SkillTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Server.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+ServerDlg.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+ServerDlg2.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+SERVERINFO.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+RoyalRumble.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+RoyalRumbleUser.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Search.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+RecoverSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+RemodelingTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+PsiTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Recover.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+RecoverRate.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+RecoverRateSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+PathFind.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+PoolBase.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+PsiStoreSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+PsiTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+NpcTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+NpcThread.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+PAMAExpSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Path.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+NpcPosSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+NpcSayTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+NpcTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+NpcChat.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+NpcChatSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+NpcItem.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+NpcItemSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+MemUser.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+MyDB.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Npc.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+MagicItemTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+MAP.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+ItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+LOGIC.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+LOGIC_ELSE.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+IOCPBASE.OBJ : error LNK2001: unresolved external symbol __RTC_CheckEsp
+IOCPSocket.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Item.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+ItemTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+GuildStoreTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+GuildUser.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Hyper.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+InitItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+GuildHouseWar.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+GuildMapInfoTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+GuildStoreSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+GuildHouse.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+GuildHouseSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+global.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Guild.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+GuildFortress.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+GuildFortressSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EventItemTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EventItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EventZone.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EXEC.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EVENT.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EVENT_DATA.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EventBlockingTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EventItemNew.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EBodyTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EBodyUpgradeTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+ErrorLog.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EBodyIdentifyTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+EBodyTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+DBItemInfo.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+DNTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+DNTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+DressingSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+CircularBuffer.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+COM.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Compress.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+BufferEx.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+CBSocket.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+CELL.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+AccessoriUpTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+BoxEventTable.obj : error LNK2001: unresolved external symbol __RTC_CheckEsp
+VirtualRoom.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+UserLevelUpTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+UserManager.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+ValItemTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+ValItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+UResourceArray.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+USER.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+USER2.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+TableItem.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+ThrowItem.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+UNI_CHAR.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+StoreRepairSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+StoreSellSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+StoreSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+SummonTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+SResourceArray.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+SSocket.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+StdAfx.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Store.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+sinstance.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+SkillTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+SkillTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+SocketManager.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+ServerDlg2.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+SERVERINFO.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+SharedMemory.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+SharedQueue.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+RoyalRumbleUser.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Search.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Server.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+ServerDlg.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+RemodelingTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+RoyalRumble.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+RecoverRate.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+RecoverRateSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+RecoverSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+PsiStoreSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+PsiTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+PsiTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Recover.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+PAMAExpSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Path.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+PathFind.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+PoolBase.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+NpcTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+NpcTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+NpcThread.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+PAMAExp.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+NpcItemSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+NpcPosSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+NpcSayTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Npc.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+NpcChat.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+NpcChatSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+NpcItem.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+MemUser.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+MyDB.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+LOGIC_ELSE.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+MagicItemTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+MAP.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+ItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+LevelUpTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+LOGIC.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+IOCPBASE.OBJ : error LNK2001: unresolved external symbol __RTC_Shutdown
+IOCPSocket.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Item.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+ItemTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+GuildStoreTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+GuildUser.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Hyper.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+InitItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+GuildHouseWar.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+GuildMapInfoTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+GuildStoreSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+GuildHouse.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+GuildHouseSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+global.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Guild.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+GuildFortress.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+GuildFortressSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EventItemTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EventItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EventZone.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EXEC.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EVENT.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EVENT_DATA.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EventBlockingTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EventItemNew.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EBodyTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EBodyUpgradeTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+ErrorLog.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EBodyIdentifyTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+EBodyTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+DBItemInfo.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+DNTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+DNTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+DressingSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+CircularBuffer.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+COM.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+Compress.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+BufferEx.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+CBSocket.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+CELL.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+AccessoriUpTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+BoxEventTable.obj : error LNK2001: unresolved external symbol __RTC_Shutdown
+VirtualRoom.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+UserLevelUpTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+UserManager.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+ValItemTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+ValItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+UResourceArray.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+USER.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+USER2.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+TableItem.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+ThrowItem.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+UNI_CHAR.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+StoreRepairSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+StoreSellSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+StoreSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+SummonTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+SResourceArray.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+SSocket.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+StdAfx.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Store.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+sinstance.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+SkillTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+SkillTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+SocketManager.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+ServerDlg2.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+SERVERINFO.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+SharedMemory.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+SharedQueue.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+RoyalRumbleUser.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Search.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Server.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+ServerDlg.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+RemodelingTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+RoyalRumble.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+RecoverRate.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+RecoverRateSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+RecoverSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+PsiStoreSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+PsiTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+PsiTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Recover.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+PAMAExpSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Path.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+PathFind.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+PoolBase.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+NpcTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+NpcTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+NpcThread.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+PAMAExp.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+NpcItemSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+NpcPosSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+NpcSayTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Npc.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+NpcChat.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+NpcChatSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+NpcItem.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+MemUser.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+MyDB.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+LOGIC_ELSE.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+MagicItemTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+MAP.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+ItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+LevelUpTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+LOGIC.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+IOCPBASE.OBJ : error LNK2001: unresolved external symbol __RTC_InitBase
+IOCPSocket.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Item.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+ItemTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+GuildStoreTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+GuildUser.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Hyper.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+InitItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+GuildHouseWar.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+GuildMapInfoTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+GuildStoreSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+GuildHouse.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+GuildHouseSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+global.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Guild.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+GuildFortress.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+GuildFortressSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EventItemTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EventItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EventZone.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EXEC.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EVENT.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EVENT_DATA.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EventBlockingTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EventItemNew.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EBodyTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EBodyUpgradeTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+ErrorLog.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EBodyIdentifyTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+EBodyTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+DBItemInfo.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+DNTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+DNTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+DressingSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+CircularBuffer.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+COM.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+Compress.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+BufferEx.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+CBSocket.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+CELL.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+AccessoriUpTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+BoxEventTable.obj : error LNK2001: unresolved external symbol __RTC_InitBase
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+StoreSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+ValItemTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+SkillTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+StoreRepairSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+StoreSellSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+RecoverRateSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+RecoverSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+NpcTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+PAMAExpSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+PsiStoreSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+PsiTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+NpcChatSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+NpcItemSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+NpcPosSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+GuildStoreSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+InitItemTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+ItemTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+GuildFortressSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+GuildHouseSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+EBodyTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+EventItemTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+DBItemInfo.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+DNTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+DressingSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CRecordset::OnSetUpdateOptions(void *)" (?OnSetUpdateOptions@CRecordset@@UAEXPAX@Z)
+PsiTableSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+NpcChatSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+NpcPosSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+NpcTableSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+GuildStoreSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+ItemTableSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+DBItemInfo.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+EBodyTableSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+EventItemTableSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+GuildFortressSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Text(class CFieldExchange *,char const *,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &,int,int,short)" (?RFX_Text@@YGXPAVCFieldExchange@@PBDAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@HHF@Z)
+USER2.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+ValItemTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+StoreSellSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+StoreSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+USER.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+ServerDlg2.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+sinstance.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+SkillTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+StoreRepairSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+ServerDlg.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+PsiStoreSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+PsiTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+RecoverRateSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+RecoverSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+NpcPosSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+NpcTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+PAMAExpSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+Npc.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+NpcChatSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+NpcItemSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+ItemTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+GuildHouseWar.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+GuildStoreSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+InitItemTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+GuildFortressSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+GuildHouseSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+ErrorLog.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+EventItemTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+EventZone.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+global.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+EBodyTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+COM.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+DBItemInfo.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+DNTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+DressingSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceString" (?atlTraceString@ATL@@3VCTraceCategory@1@A)
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+ValItemTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+UNI_CHAR.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+UResourceArray.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+USER.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+USER2.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+StoreSellSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+StoreSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+SummonTable.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+SSocket.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+StdAfx.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+Store.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+StoreRepairSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+SERVERINFO.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+SharedMemory.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+sinstance.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+SkillTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+Server.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+ServerDlg2.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+RecoverSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+PsiStoreSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+PsiTable.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+PsiTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+RecoverRateSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+NpcTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+PAMAExpSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+PathFind.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+PoolBase.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+NpcItemSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+NpcPosSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+NpcSayTable.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+MyDB.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+Npc.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+NpcChatSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+MAP.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+IOCPBASE.OBJ : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+IOCPSocket.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+ItemTable.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+ItemTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+GuildStoreSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+Hyper.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+InitItemTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+GuildHouseSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+GuildHouseWar.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+EventItemTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+EventZone.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+global.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+GuildFortressSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+EBodyTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+ErrorLog.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+EVENT.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+DNTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+DressingSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+CBSocket.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+COM.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+DBItemInfo.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+BoxEventTable.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTrace ATL::CTrace::s_trace" (?s_trace@CTrace@ATL@@2V12@A)
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+ValItemTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+UNI_CHAR.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+UResourceArray.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+USER.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+USER2.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+StoreSellSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+StoreSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+SummonTable.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+SSocket.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+StdAfx.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+Store.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+StoreRepairSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+SERVERINFO.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+SharedMemory.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+sinstance.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+SkillTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+RoyalRumble.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+Server.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+ServerDlg.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+ServerDlg2.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+RecoverSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+PsiStoreSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+PsiTable.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+PsiTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+RecoverRateSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+NpcTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+PAMAExpSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+PathFind.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+PoolBase.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+NpcItemSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+NpcPosSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+NpcSayTable.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+MyDB.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+Npc.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+NpcChatSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+MAP.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+IOCPBASE.OBJ : error LNK2001: unresolved external symbol _AtlTraceVA
+IOCPSocket.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+ItemTable.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+ItemTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+GuildStoreSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+Hyper.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+InitItemTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+GuildHouseSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+GuildHouseWar.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+EventItemTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+EventZone.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+global.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+GuildFortressSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+EBodyTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+ErrorLog.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+EVENT.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+DNTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+DressingSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+CBSocket.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+COM.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+DBItemInfo.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+BoxEventTable.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol _AtlTraceVA
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+USER.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+USER2.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+ValItemTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+StoreSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+SummonTable.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+UNI_CHAR.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+SSocket.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+StdAfx.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+StoreRepairSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+StoreSellSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+ServerDlg2.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+SERVERINFO.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+sinstance.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+SkillTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+RoyalRumble.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+Server.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+ServerDlg.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+RecoverRateSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+RecoverSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+PathFind.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+PsiStoreSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+PsiTable.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+PsiTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+NpcSayTable.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+NpcTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+PAMAExpSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+Path.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+NpcChatSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+NpcItemSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+NpcPosSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+MyDB.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+Npc.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+ItemTable.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+ItemTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+GuildStoreSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+Hyper.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+InitItemTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+IOCPSocket.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+GuildHouseSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+GuildHouseWar.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+EventZone.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+global.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+GuildFortressSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+ErrorLog.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+EVENT.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+EventItemTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+DressingSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+EBodyTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+COM.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+DBItemInfo.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+DNTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+BoxEventTable.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+USER2.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+ValItemTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+SummonTable.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+UNI_CHAR.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+USER.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+StdAfx.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+StoreRepairSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+StoreSellSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+StoreSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+SERVERINFO.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+sinstance.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+SkillTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+SSocket.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+Server.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+ServerDlg.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+ServerDlg2.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+RecoverSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+PsiStoreSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+PsiTable.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+PsiTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+RecoverRateSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+NpcSayTable.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+NpcTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+PAMAExpSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+PathFind.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+NpcChatSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+NpcItemSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+NpcPosSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+MyDB.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+Npc.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+ItemTable.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+ItemTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+GuildStoreSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+Hyper.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+InitItemTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+IOCPSocket.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+GuildHouseSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+GuildHouseWar.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+EventZone.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+global.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+GuildFortressSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+ErrorLog.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+EVENT.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+EventItemTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+DressingSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+EBodyTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+COM.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+DBItemInfo.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+DNTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+BoxEventTable.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceException" (?atlTraceException@ATL@@3VCTraceCategory@1@A)
+USER2.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+ValItemTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+StoreSellSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+StoreSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+USER.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+ServerDlg2.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+sinstance.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+SkillTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+StoreRepairSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+PsiStoreSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+PsiTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+RecoverRateSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+RecoverSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+NpcPosSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+NpcTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+PAMAExpSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+Npc.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+NpcChatSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+NpcItemSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+ItemTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+GuildHouseWar.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+GuildStoreSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+InitItemTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+GuildFortressSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+GuildHouseSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+ErrorLog.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+EventItemTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+EventZone.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+global.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+EBodyTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+COM.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+DBItemInfo.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+DNTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+DressingSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol "struct HINSTANCE__ * __stdcall AfxFindStringResourceHandle(unsigned int)" (?AfxFindStringResourceHandle@@YGPAUHINSTANCE__@@I@Z)
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+USER.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+USER2.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+ValItemTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+StoreSellSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+StoreSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+SummonTable.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+SERVERINFO.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+sinstance.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+SkillTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+StoreRepairSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+Server.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+ServerDlg2.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+RecoverSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+PsiStoreSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+PsiTable.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+PsiTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+RecoverRateSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+NpcSayTable.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+NpcTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+PAMAExpSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+PathFind.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+NpcChatSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+NpcItemSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+NpcPosSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+MyDB.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+Npc.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+ItemTable.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+ItemTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+GuildStoreSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+Hyper.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+InitItemTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+IOCPSocket.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+GuildHouseSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+GuildHouseWar.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+EventZone.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+global.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+GuildFortressSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+ErrorLog.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+EVENT.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+EventItemTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+DressingSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+EBodyTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+COM.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+DBItemInfo.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+DNTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+BoxEventTable.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol "struct ATL::IAtlStringMgr * __stdcall AfxGetStringManager(void)" (?AfxGetStringManager@@YGPAUIAtlStringMgr@ATL@@XZ)
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+USER.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+USER2.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+ValItemTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+StoreRepairSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+StoreSellSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+StoreSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+ServerDlg2.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+sinstance.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+SkillTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+StdAfx.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+ServerDlg.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+PsiStoreSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+PsiTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+RecoverRateSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+RecoverSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+NpcPosSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+NpcTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+PAMAExpSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+Npc.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+NpcChatSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+NpcItemSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+ItemTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+GuildHouseWar.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+GuildStoreSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+InitItemTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+GuildFortressSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+GuildHouseSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+ErrorLog.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+EventItemTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+EventZone.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+global.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+EBodyTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+COM.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+DBItemInfo.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+DNTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+DressingSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol "unsigned int (__stdcall* ATL::g_pfnGetThreadACP)(void)" (?g_pfnGetThreadACP@ATL@@3P6GIXZA)
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+USER.obj : error LNK2001: unresolved external symbol _memcpy_s
+USER2.obj : error LNK2001: unresolved external symbol _memcpy_s
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+ValItemTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+StoreSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+SummonTable.obj : error LNK2001: unresolved external symbol _memcpy_s
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+UNI_CHAR.obj : error LNK2001: unresolved external symbol _memcpy_s
+SkillTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+SSocket.obj : error LNK2001: unresolved external symbol _memcpy_s
+StoreRepairSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+StoreSellSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+ServerDlg.obj : error LNK2001: unresolved external symbol _memcpy_s
+ServerDlg2.obj : error LNK2001: unresolved external symbol _memcpy_s
+SERVERINFO.obj : error LNK2001: unresolved external symbol _memcpy_s
+sinstance.obj : error LNK2001: unresolved external symbol _memcpy_s
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+RoyalRumble.obj : error LNK2001: unresolved external symbol _memcpy_s
+Server.obj : error LNK2001: unresolved external symbol _memcpy_s
+PsiTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+RecoverRateSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+RecoverSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+NpcTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+PAMAExpSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+PathFind.obj : error LNK2001: unresolved external symbol _memcpy_s
+PsiStoreSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+NpcItemSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+NpcPosSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+NpcSayTable.obj : error LNK2001: unresolved external symbol _memcpy_s
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+MyDB.obj : error LNK2001: unresolved external symbol _memcpy_s
+Npc.obj : error LNK2001: unresolved external symbol _memcpy_s
+NpcChatSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+ItemTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+GuildStoreSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+Hyper.obj : error LNK2001: unresolved external symbol _memcpy_s
+InitItemTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+IOCPSocket.obj : error LNK2001: unresolved external symbol _memcpy_s
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+GuildHouseSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+GuildHouseWar.obj : error LNK2001: unresolved external symbol _memcpy_s
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+EventZone.obj : error LNK2001: unresolved external symbol _memcpy_s
+global.obj : error LNK2001: unresolved external symbol _memcpy_s
+GuildFortressSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+ErrorLog.obj : error LNK2001: unresolved external symbol _memcpy_s
+EVENT.obj : error LNK2001: unresolved external symbol _memcpy_s
+EventItemTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+DressingSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+EBodyTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+COM.obj : error LNK2001: unresolved external symbol _memcpy_s
+DBItemInfo.obj : error LNK2001: unresolved external symbol _memcpy_s
+DNTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol _memcpy_s
+CELL.obj : error LNK2001: unresolved external symbol _memcpy_s
+ZoneInfoSet.obj : error LNK2001: unresolved external symbol _memmove_s
+USER.obj : error LNK2001: unresolved external symbol _memmove_s
+USER2.obj : error LNK2001: unresolved external symbol _memmove_s
+UserLevelUpSet.obj : error LNK2001: unresolved external symbol _memmove_s
+ValItemTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+StoreSellSet.obj : error LNK2001: unresolved external symbol _memmove_s
+StoreSet.obj : error LNK2001: unresolved external symbol _memmove_s
+SummonTable.obj : error LNK2001: unresolved external symbol _memmove_s
+TownPotalTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+sinstance.obj : error LNK2001: unresolved external symbol _memmove_s
+SkillTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+SSocket.obj : error LNK2001: unresolved external symbol _memmove_s
+StoreRepairSet.obj : error LNK2001: unresolved external symbol _memmove_s
+RoyalRumble.obj : error LNK2001: unresolved external symbol _memmove_s
+ServerDlg.obj : error LNK2001: unresolved external symbol _memmove_s
+ServerDlg2.obj : error LNK2001: unresolved external symbol _memmove_s
+SERVERINFO.obj : error LNK2001: unresolved external symbol _memmove_s
+RecoverSet.obj : error LNK2001: unresolved external symbol _memmove_s
+Remodeling02TableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+Remodeling03TableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+RemodelingTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+PAMAExpSet.obj : error LNK2001: unresolved external symbol _memmove_s
+PsiStoreSet.obj : error LNK2001: unresolved external symbol _memmove_s
+PsiTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+RecoverRateSet.obj : error LNK2001: unresolved external symbol _memmove_s
+NpcPosSet.obj : error LNK2001: unresolved external symbol _memmove_s
+NpcSayEventSet.obj : error LNK2001: unresolved external symbol _memmove_s
+NpcSayTable.obj : error LNK2001: unresolved external symbol _memmove_s
+NpcTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+MyDB.obj : error LNK2001: unresolved external symbol _memmove_s
+Npc.obj : error LNK2001: unresolved external symbol _memmove_s
+NpcChatSet.obj : error LNK2001: unresolved external symbol _memmove_s
+NpcItemSet.obj : error LNK2001: unresolved external symbol _memmove_s
+LevelUpTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+MagicItemTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+MechanicStoreSet.obj : error LNK2001: unresolved external symbol _memmove_s
+MonsterPsiSet.obj : error LNK2001: unresolved external symbol _memmove_s
+Hyper.obj : error LNK2001: unresolved external symbol _memmove_s
+InitItemTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+IOCPSocket.obj : error LNK2001: unresolved external symbol _memmove_s
+ItemTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+GuildHouseSet.obj : error LNK2001: unresolved external symbol _memmove_s
+GuildHouseWar.obj : error LNK2001: unresolved external symbol _memmove_s
+GuildMapInfoSet.obj : error LNK2001: unresolved external symbol _memmove_s
+GuildStoreSet.obj : error LNK2001: unresolved external symbol _memmove_s
+global.obj : error LNK2001: unresolved external symbol _memmove_s
+GuildFortressSet.obj : error LNK2001: unresolved external symbol _memmove_s
+GuildFortressTaxSet.obj : error LNK2001: unresolved external symbol _memmove_s
+GuildHouseRankSet.obj : error LNK2001: unresolved external symbol _memmove_s
+EBodyUpgradeTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+ErrorLog.obj : error LNK2001: unresolved external symbol _memmove_s
+EventItemTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+EventZone.obj : error LNK2001: unresolved external symbol _memmove_s
+DressingSet.obj : error LNK2001: unresolved external symbol _memmove_s
+EBodyIdentifyTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+EBodyStoreSet.obj : error LNK2001: unresolved external symbol _memmove_s
+EBodyTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+CityNpcTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+COM.obj : error LNK2001: unresolved external symbol _memmove_s
+DBItemInfo.obj : error LNK2001: unresolved external symbol _memmove_s
+DNTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+AccessoriUpTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+AddEventItemTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+BoxEventTableSet.obj : error LNK2001: unresolved external symbol _memmove_s
+CELL.obj : error LNK2001: unresolved external symbol _memmove_s
+USER2.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,char const *,int)" (??_U@YAPAXIPBDH@Z)
+Npc.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,char const *,int)" (??_U@YAPAXIPBDH@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,char const *,int)" (??_U@YAPAXIPBDH@Z)
+UNI_CHAR.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,char const *,int)" (??_U@YAPAXIPBDH@Z)
+USER.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,char const *,int)" (??_U@YAPAXIPBDH@Z)
+BufferEx.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,char const *,int)" (??_U@YAPAXIPBDH@Z)
+CELL.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,char const *,int)" (??_U@YAPAXIPBDH@Z)
+CircularBuffer.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,char const *,int)" (??_U@YAPAXIPBDH@Z)
+MAP.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int,char const *,int)" (??_U@YAPAXIPBDH@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+ServerDlg2.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+UNI_CHAR.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+USER.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+NpcChat.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+NpcItem.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+Path.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+PoolBase.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+Compress.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+IOCPBASE.OBJ : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+MAP.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+Npc.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+BufferEx.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+CBSocket.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+CELL.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+CircularBuffer.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)
+TableItem.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+UNI_CHAR.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+USER.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+USER2.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+sinstance.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+SSocket.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+StdAfx.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+Store.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+Server.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+ServerDlg.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+ServerDlg2.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+SharedQueue.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+Path.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+PathFind.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+PoolBase.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+RoyalRumble.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+MAP.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+MyDB.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+Npc.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+NpcThread.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+IOCPSocket.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+Item.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+LOGIC.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+LOGIC_ELSE.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+GuildHouse.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+GuildHouseWar.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+Hyper.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+IOCPBASE.OBJ : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+EXEC.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+global.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+Guild.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+GuildFortress.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+Compress.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+ErrorLog.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+EVENT.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+EventZone.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+BufferEx.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+CBSocket.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+CELL.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+COM.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+Path.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+PoolBase.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+Search.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+USER.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+CBSocket.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+CELL.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+Compress.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+Npc.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)
+Store.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+UResourceArray.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+USER.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+USER2.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+ServerDlg.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+ServerDlg2.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+SharedMemory.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+sinstance.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+Npc.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+PathFind.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+PoolBase.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+IOCPBASE.OBJ : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+IOCPSocket.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+MAP.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+MyDB.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+CBSocket.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+COM.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+EVENT.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+global.obj : error LNK2001: unresolved external symbol "class ATL::CTraceCategory ATL::atlTraceGeneral" (?atlTraceGeneral@ATL@@3VCTraceCategory@1@A)
+CELL.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *,char const *,int)" (??_V@YAXPAXPBDH@Z)
+MAP.obj : error LNK2001: unresolved external symbol "void __cdecl operator delete[](void *,char const *,int)" (??_V@YAXPAXPBDH@Z)
+USER.obj : error LNK2001: unresolved external symbol "void __stdcall AfxThrowInvalidArgException(void)" (?AfxThrowInvalidArgException@@YGXXZ)
+USER2.obj : error LNK2001: unresolved external symbol "void __stdcall AfxThrowInvalidArgException(void)" (?AfxThrowInvalidArgException@@YGXXZ)
+CELL.obj : error LNK2001: unresolved external symbol "void __stdcall AfxThrowInvalidArgException(void)" (?AfxThrowInvalidArgException@@YGXXZ)
+Npc.obj : error LNK2001: unresolved external symbol "void __stdcall AfxThrowInvalidArgException(void)" (?AfxThrowInvalidArgException@@YGXXZ)
+Path.obj : error LNK2001: unresolved external symbol "void __stdcall AfxThrowInvalidArgException(void)" (?AfxThrowInvalidArgException@@YGXXZ)
+StdAfx.obj : error LNK2001: unresolved external symbol "void __stdcall AfxThrowInvalidArgException(void)" (?AfxThrowInvalidArgException@@YGXXZ)
+CELL.obj : error LNK2001: unresolved external symbol "public: void __thiscall CArchive::EnsureRead(void *,unsigned int)" (?EnsureRead@CArchive@@QAEXPAXI@Z)
+Npc.obj : error LNK2001: unresolved external symbol "public: void __thiscall CArchive::EnsureRead(void *,unsigned int)" (?EnsureRead@CArchive@@QAEXPAXI@Z)
+Path.obj : error LNK2001: unresolved external symbol "public: void __thiscall CArchive::EnsureRead(void *,unsigned int)" (?EnsureRead@CArchive@@QAEXPAXI@Z)
+COM.obj : error LNK2001: unresolved external symbol "public: bool __thiscall ATL::COleDateTime::operator<=(class ATL::COleDateTime const &)const " (??NCOleDateTime@ATL@@QBE_NABV01@@Z)
+COM.obj : error LNK2001: unresolved external symbol "public: bool __thiscall ATL::COleDateTime::operator>=(class ATL::COleDateTime const &)const " (??PCOleDateTime@ATL@@QBE_NABV01@@Z)
+COM.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::COleDateTime::SetDateTime(int,int,int,int,int,int)" (?SetDateTime@COleDateTime@ATL@@QAEHHHHHHH@Z)
+COM.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::COleDateTime::COleDateTime(void)" (??0COleDateTime@ATL@@QAE@XZ)
+COM.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::COleDateTime::COleDateTime(int,int,int,int,int,int)" (??0COleDateTime@ATL@@QAE@HHHHHH@Z)
+Store.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::COleDateTime::COleDateTime(int,int,int,int,int,int)" (??0COleDateTime@ATL@@QAE@HHHHHH@Z)
+USER2.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::COleDateTime::COleDateTime(int,int,int,int,int,int)" (??0COleDateTime@ATL@@QAE@HHHHHH@Z)
+COM.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::COleDateTime::GetMinute(void)const " (?GetMinute@COleDateTime@ATL@@QBEHXZ)
+COM.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::COleDateTime::GetHour(void)const " (?GetHour@COleDateTime@ATL@@QBEHXZ)
+Store.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::COleDateTime::GetHour(void)const " (?GetHour@COleDateTime@ATL@@QBEHXZ)
+COM.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::COleDateTime::GetDay(void)const " (?GetDay@COleDateTime@ATL@@QBEHXZ)
+Store.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::COleDateTime::GetDay(void)const " (?GetDay@COleDateTime@ATL@@QBEHXZ)
+COM.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::COleDateTime::COleDateTime(struct _SYSTEMTIME const &)" (??0COleDateTime@ATL@@QAE@ABU_SYSTEMTIME@@@Z)
+USER2.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::COleDateTime::COleDateTime(struct _SYSTEMTIME const &)" (??0COleDateTime@ATL@@QAE@ABU_SYSTEMTIME@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol __ftol2_sse
+USER.obj : error LNK2001: unresolved external symbol __ftol2_sse
+USER2.obj : error LNK2001: unresolved external symbol __ftol2_sse
+COM.obj : error LNK2001: unresolved external symbol __ftol2_sse
+global.obj : error LNK2001: unresolved external symbol __ftol2_sse
+Npc.obj : error LNK2001: unresolved external symbol __ftol2_sse
+PathFind.obj : error LNK2001: unresolved external symbol __ftol2_sse
+COM.obj : error LNK2001: unresolved external symbol "public: __int64 __thiscall ATL::CTimeSpan::GetTotalMinutes(void)const " (?GetTotalMinutes@CTimeSpan@ATL@@QBE_JXZ)
+COM.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::COleDateTime::GetSecond(void)const " (?GetSecond@COleDateTime@ATL@@QBEHXZ)
+COM.obj : error LNK2001: unresolved external symbol "public: __int64 __thiscall ATL::CTimeSpan::GetTotalHours(void)const " (?GetTotalHours@CTimeSpan@ATL@@QBE_JXZ)
+USER2.obj : error LNK2001: unresolved external symbol "public: __int64 __thiscall ATL::CTimeSpan::GetTotalHours(void)const " (?GetTotalHours@CTimeSpan@ATL@@QBE_JXZ)
+COM.obj : error LNK2001: unresolved external symbol "public: class ATL::CTimeSpan __thiscall ATL::CTime::operator-(class ATL::CTime)const " (??GCTime@ATL@@QBE?AVCTimeSpan@1@V01@@Z)
+USER.obj : error LNK2001: unresolved external symbol "public: class ATL::CTimeSpan __thiscall ATL::CTime::operator-(class ATL::CTime)const " (??GCTime@ATL@@QBE?AVCTimeSpan@1@V01@@Z)
+USER2.obj : error LNK2001: unresolved external symbol "public: class ATL::CTimeSpan __thiscall ATL::CTime::operator-(class ATL::CTime)const " (??GCTime@ATL@@QBE?AVCTimeSpan@1@V01@@Z)
+COM.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTime::CTime(int,int,int,int,int,int,int)" (??0CTime@ATL@@QAE@HHHHHHH@Z)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTime::CTime(int,int,int,int,int,int,int)" (??0CTime@ATL@@QAE@HHHHHHH@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTime::CTime(int,int,int,int,int,int,int)" (??0CTime@ATL@@QAE@HHHHHHH@Z)
+COM.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::COleDateTime::GetYear(void)const " (?GetYear@COleDateTime@ATL@@QBEHXZ)
+Store.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::COleDateTime::GetYear(void)const " (?GetYear@COleDateTime@ATL@@QBEHXZ)
+COM.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::COleDateTime::GetMonth(void)const " (?GetMonth@COleDateTime@ATL@@QBEHXZ)
+Store.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::COleDateTime::GetMonth(void)const " (?GetMonth@COleDateTime@ATL@@QBEHXZ)
+COM.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTimeSpan::CTimeSpan(void)" (??0CTimeSpan@ATL@@QAE@XZ)
+USER2.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTimeSpan::CTimeSpan(void)" (??0CTimeSpan@ATL@@QAE@XZ)
+COM.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::CTime::GetYear(void)const " (?GetYear@CTime@ATL@@QBEHXZ)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::CTime::GetYear(void)const " (?GetYear@CTime@ATL@@QBEHXZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::CTime::GetYear(void)const " (?GetYear@CTime@ATL@@QBEHXZ)
+COM.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::CTime::GetMonth(void)const " (?GetMonth@CTime@ATL@@QBEHXZ)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::CTime::GetMonth(void)const " (?GetMonth@CTime@ATL@@QBEHXZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::CTime::GetMonth(void)const " (?GetMonth@CTime@ATL@@QBEHXZ)
+COM.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::CTime::GetDay(void)const " (?GetDay@CTime@ATL@@QBEHXZ)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::CTime::GetDay(void)const " (?GetDay@CTime@ATL@@QBEHXZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::CTime::GetDay(void)const " (?GetDay@CTime@ATL@@QBEHXZ)
+COM.obj : error LNK2001: unresolved external symbol "public: class ATL::CTime & __thiscall ATL::CTime::operator+=(class ATL::CTimeSpan)" (??YCTime@ATL@@QAEAAV01@VCTimeSpan@1@@Z)
+COM.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTimeSpan::CTimeSpan(long,int,int,int)" (??0CTimeSpan@ATL@@QAE@JHHH@Z)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTimeSpan::CTimeSpan(long,int,int,int)" (??0CTimeSpan@ATL@@QAE@JHHH@Z)
+COM.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTime::CTime(struct _SYSTEMTIME const &,int)" (??0CTime@ATL@@QAE@ABU_SYSTEMTIME@@H@Z)
+USER.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTime::CTime(struct _SYSTEMTIME const &,int)" (??0CTime@ATL@@QAE@ABU_SYSTEMTIME@@H@Z)
+USER2.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTime::CTime(struct _SYSTEMTIME const &,int)" (??0CTime@ATL@@QAE@ABU_SYSTEMTIME@@H@Z)
+COM.obj : error LNK2001: unresolved external symbol "public: __int64 __thiscall ATL::CTimeSpan::GetDays(void)const " (?GetDays@CTimeSpan@ATL@@QBE_JXZ)
+USER2.obj : error LNK2001: unresolved external symbol "public: __int64 __thiscall ATL::CTimeSpan::GetDays(void)const " (?GetDays@CTimeSpan@ATL@@QBE_JXZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol __vscprintf
+ServerDlg2.obj : error LNK2001: unresolved external symbol __vscprintf
+USER.obj : error LNK2001: unresolved external symbol __vscprintf
+USER2.obj : error LNK2001: unresolved external symbol __vscprintf
+Npc.obj : error LNK2001: unresolved external symbol __vscprintf
+PathFind.obj : error LNK2001: unresolved external symbol __vscprintf
+RoyalRumble.obj : error LNK2001: unresolved external symbol __vscprintf
+Server.obj : error LNK2001: unresolved external symbol __vscprintf
+COM.obj : error LNK2001: unresolved external symbol __vscprintf
+ErrorLog.obj : error LNK2001: unresolved external symbol __vscprintf
+EVENT.obj : error LNK2001: unresolved external symbol __vscprintf
+GuildHouseWar.obj : error LNK2001: unresolved external symbol __vscprintf
+ServerDlg.obj : error LNK2001: unresolved external symbol _vsprintf_s
+ServerDlg2.obj : error LNK2001: unresolved external symbol _vsprintf_s
+USER.obj : error LNK2001: unresolved external symbol _vsprintf_s
+USER2.obj : error LNK2001: unresolved external symbol _vsprintf_s
+Npc.obj : error LNK2001: unresolved external symbol _vsprintf_s
+PathFind.obj : error LNK2001: unresolved external symbol _vsprintf_s
+RoyalRumble.obj : error LNK2001: unresolved external symbol _vsprintf_s
+Server.obj : error LNK2001: unresolved external symbol _vsprintf_s
+COM.obj : error LNK2001: unresolved external symbol _vsprintf_s
+ErrorLog.obj : error LNK2001: unresolved external symbol _vsprintf_s
+EVENT.obj : error LNK2001: unresolved external symbol _vsprintf_s
+GuildHouseWar.obj : error LNK2001: unresolved external symbol _vsprintf_s
+ErrorLog.obj : error LNK2001: unresolved external symbol "public: virtual unsigned __int64 __thiscall CStdioFile::GetPosition(void)const " (?GetPosition@CStdioFile@@UBE_KXZ)
+ErrorLog.obj : error LNK2001: unresolved external symbol "public: virtual class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > __thiscall CFile::GetFileName(void)const " (?GetFileName@CFile@@UBE?AV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@XZ)
+ErrorLog.obj : error LNK2001: unresolved external symbol "public: virtual class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > __thiscall CFile::GetFileTitle(void)const " (?GetFileTitle@CFile@@UBE?AV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@XZ)
+ErrorLog.obj : error LNK2001: unresolved external symbol "public: virtual class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > __thiscall CFile::GetFilePath(void)const " (?GetFilePath@CFile@@UBE?AV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@XZ)
+ErrorLog.obj : error LNK2001: unresolved external symbol "public: virtual unsigned __int64 __thiscall CStdioFile::Seek(__int64,unsigned int)" (?Seek@CStdioFile@@UAE_K_JI@Z)
+ErrorLog.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CFile::SetLength(unsigned __int64)" (?SetLength@CFile@@UAEX_K@Z)
+ErrorLog.obj : error LNK2001: unresolved external symbol "public: virtual unsigned __int64 __thiscall CStdioFile::GetLength(void)const " (?GetLength@CStdioFile@@UBE_KXZ)
+ErrorLog.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CStdioFile::LockRange(unsigned __int64,unsigned __int64)" (?LockRange@CStdioFile@@UAEX_K0@Z)
+ErrorLog.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CStdioFile::UnlockRange(unsigned __int64,unsigned __int64)" (?UnlockRange@CStdioFile@@UAEX_K0@Z)
+ErrorLog.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall CStdioFile::ReadString(class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &)" (?ReadString@CStdioFile@@UAEHAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z)
+ErrorLog.obj : error LNK2001: unresolved external symbol "public: static void * CFile::hFileNull" (?hFileNull@CFile@@2QAXA)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: static void * CFile::hFileNull" (?hFileNull@CFile@@2QAXA)
+ErrorLog.obj : error LNK2001: unresolved external symbol "public: unsigned __int64 __thiscall CFile::SeekToEnd(void)" (?SeekToEnd@CFile@@QAE_KXZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: unsigned __int64 __thiscall CFile::SeekToEnd(void)" (?SeekToEnd@CFile@@QAE_KXZ)
+EVENT.obj : error LNK2001: unresolved external symbol "public: virtual unsigned __int64 __thiscall CFile::GetLength(void)const " (?GetLength@CFile@@UBE_KXZ)
+Guild.obj : error LNK2001: unresolved external symbol __RTC_UninitUse
+Path.obj : error LNK2001: unresolved external symbol __RTC_UninitUse
+USER.obj : error LNK2001: unresolved external symbol __RTC_UninitUse
+USER2.obj : error LNK2001: unresolved external symbol __RTC_UninitUse
+USER2.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTime::CTime(void)" (??0CTime@ATL@@QAE@XZ)
+GuildFortressSet.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTime::CTime(void)" (??0CTime@ATL@@QAE@XZ)
+GuildStoreSet.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTime::CTime(void)" (??0CTime@ATL@@QAE@XZ)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTime::CTime(void)" (??0CTime@ATL@@QAE@XZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTime::CTime(void)" (??0CTime@ATL@@QAE@XZ)
+GuildFortressSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Date(class CFieldExchange *,char const *,class ATL::CTime &)" (?RFX_Date@@YGXPAVCFieldExchange@@PBDAAVCTime@ATL@@@Z)
+GuildStoreSet.obj : error LNK2001: unresolved external symbol "void __stdcall RFX_Date(class CFieldExchange *,char const *,class ATL::CTime &)" (?RFX_Date@@YGXPAVCFieldExchange@@PBDAAVCTime@ATL@@@Z)
+IOCPBASE.OBJ : error LNK2001: unresolved external symbol __except_handler4
+StdAfx.obj : error LNK2001: unresolved external symbol __except_handler4
+PathFind.obj : error LNK2001: unresolved external symbol "public: int __thiscall CDC::DrawTextA(class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > const &,struct tagRECT *,unsigned int)" (?DrawTextA@CDC@@QAEHABV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@PAUtagRECT@@I@Z)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::CTime::GetHour(void)const " (?GetHour@CTime@ATL@@QBEHXZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::CTime::GetHour(void)const " (?GetHour@CTime@ATL@@QBEHXZ)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::CTime::GetMinute(void)const " (?GetMinute@CTime@ATL@@QBEHXZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: int __thiscall ATL::CTime::GetMinute(void)const " (?GetMinute@CTime@ATL@@QBEHXZ)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "public: bool __thiscall ATL::CTime::operator<(class ATL::CTime)const " (??MCTime@ATL@@QBE_NV01@@Z)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "public: bool __thiscall ATL::CTime::operator>=(class ATL::CTime)const " (??PCTime@ATL@@QBE_NV01@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: bool __thiscall ATL::CTime::operator>=(class ATL::CTime)const " (??PCTime@ATL@@QBE_NV01@@Z)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTime __stdcall ATL::CTime::GetTickCount(void)" (?GetTickCount@CTime@ATL@@SG?AV12@XZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTime __stdcall ATL::CTime::GetTickCount(void)" (?GetTickCount@CTime@ATL@@SG?AV12@XZ)
+USER2.obj : error LNK2001: unresolved external symbol "public: static class ATL::CTime __stdcall ATL::CTime::GetTickCount(void)" (?GetTickCount@CTime@ATL@@SG?AV12@XZ)
+RoyalRumble.obj : error LNK2001: unresolved external symbol "public: class ATL::CTime __thiscall ATL::CTime::operator+(class ATL::CTimeSpan)const " (??HCTime@ATL@@QBE?AV01@VCTimeSpan@1@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: class ATL::CTime __thiscall ATL::CTime::operator+(class ATL::CTimeSpan)const " (??HCTime@ATL@@QBE?AV01@VCTimeSpan@1@@Z)
+Server.obj : error LNK2001: unresolved external symbol "protected: static struct AFX_MSGMAP const * __stdcall CWinApp::GetThisMessageMap(void)" (?GetThisMessageMap@CWinApp@@KGPBUAFX_MSGMAP@@XZ)
+Server.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CWinApp::InitLibId(void)" (?InitLibId@CWinApp@@UAEXXZ)
+Server.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall CWinApp::Register(void)" (?Register@CWinApp@@UAEHXZ)
+Server.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall CWinApp::Unregister(void)" (?Unregister@CWinApp@@UAEHXZ)
+Server.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CWinApp::HtmlHelpA(unsigned long,unsigned int)" (?HtmlHelpA@CWinApp@@UAEXKI@Z)
+Server.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CWinApp::WinHelpInternal(unsigned long,unsigned int)" (?WinHelpInternal@CWinApp@@UAEXKI@Z)
+Server.obj : error LNK2001: unresolved external symbol "public: virtual struct HINSTANCE__ * __thiscall CWinApp::LoadAppLangResourceDLL(void)" (?LoadAppLangResourceDLL@CWinApp@@UAEPAUHINSTANCE__@@XZ)
+Server.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall CWinApp::LoadSysPolicies(void)" (?LoadSysPolicies@CWinApp@@UAEHXZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "protected: static struct AFX_MSGMAP const * __stdcall CDialog::GetThisMessageMap(void)" (?GetThisMessageMap@CDialog@@KGPBUAFX_MSGMAP@@XZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "protected: virtual struct AFX_INTERFACEMAP const * __thiscall CWnd::GetInterfaceMap(void)const " (?GetInterfaceMap@CWnd@@MBEPBUAFX_INTERFACEMAP@@XZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall CWnd::CreateEx(unsigned long,char const *,char const *,unsigned long,struct tagRECT const &,class CWnd *,unsigned int,void *)" (?CreateEx@CWnd@@UAEHKPBD0KABUtagRECT@@PAV1@IPAX@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall CWnd::CreateEx(unsigned long,char const *,char const *,unsigned long,int,int,int,int,struct HWND__ *,struct HMENU__ *,void *)" (?CreateEx@CWnd@@UAEHKPBD0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CWnd::HtmlHelpA(unsigned long,unsigned int)" (?HtmlHelpA@CWnd@@UAEXKI@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall CWnd::WinHelpInternal(unsigned long,unsigned int)" (?WinHelpInternal@CWnd@@UAEXKI@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::EnsureStdObj(void)" (?EnsureStdObj@CWnd@@UAEJXZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accParent(struct IDispatch * *)" (?get_accParent@CWnd@@UAEJPAPAUIDispatch@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accChildCount(long *)" (?get_accChildCount@CWnd@@UAEJPAJ@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accChild(struct tagVARIANT,struct IDispatch * *)" (?get_accChild@CWnd@@UAEJUtagVARIANT@@PAPAUIDispatch@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accName(struct tagVARIANT,wchar_t * *)" (?get_accName@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accValue(struct tagVARIANT,wchar_t * *)" (?get_accValue@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accDescription(struct tagVARIANT,wchar_t * *)" (?get_accDescription@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accRole(struct tagVARIANT,struct tagVARIANT *)" (?get_accRole@CWnd@@UAEJUtagVARIANT@@PAU2@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accState(struct tagVARIANT,struct tagVARIANT *)" (?get_accState@CWnd@@UAEJUtagVARIANT@@PAU2@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accHelp(struct tagVARIANT,wchar_t * *)" (?get_accHelp@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accHelpTopic(wchar_t * *,struct tagVARIANT,long *)" (?get_accHelpTopic@CWnd@@UAEJPAPA_WUtagVARIANT@@PAJ@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accKeyboardShortcut(struct tagVARIANT,wchar_t * *)" (?get_accKeyboardShortcut@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accFocus(struct tagVARIANT *)" (?get_accFocus@CWnd@@UAEJPAUtagVARIANT@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accSelection(struct tagVARIANT *)" (?get_accSelection@CWnd@@UAEJPAUtagVARIANT@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::get_accDefaultAction(struct tagVARIANT,wchar_t * *)" (?get_accDefaultAction@CWnd@@UAEJUtagVARIANT@@PAPA_W@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::accSelect(long,struct tagVARIANT)" (?accSelect@CWnd@@UAEJJUtagVARIANT@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::accLocation(long *,long *,long *,long *,struct tagVARIANT)" (?accLocation@CWnd@@UAEJPAJ000UtagVARIANT@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::accNavigate(long,struct tagVARIANT,struct tagVARIANT *)" (?accNavigate@CWnd@@UAEJJUtagVARIANT@@PAU2@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::accHitTest(long,long,struct tagVARIANT *)" (?accHitTest@CWnd@@UAEJJJPAUtagVARIANT@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::accDoDefaultAction(struct tagVARIANT)" (?accDoDefaultAction@CWnd@@UAEJUtagVARIANT@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::put_accName(struct tagVARIANT,wchar_t *)" (?put_accName@CWnd@@UAEJUtagVARIANT@@PA_W@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::put_accValue(struct tagVARIANT,wchar_t *)" (?put_accValue@CWnd@@UAEJUtagVARIANT@@PA_W@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::SetProxy(struct IAccessibleProxy *)" (?SetProxy@CWnd@@UAEJPAUIAccessibleProxy@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual long __thiscall CWnd::CreateAccessibleProxy(unsigned int,long,long *)" (?CreateAccessibleProxy@CWnd@@UAEJIJPAJ@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "protected: virtual int __thiscall CWnd::CreateControlContainer(class COleControlContainer * *)" (?CreateControlContainer@CWnd@@MAEHPAPAVCOleControlContainer@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "protected: virtual int __thiscall CWnd::CreateControlSite(class COleControlContainer *,class COleControlSite * *,unsigned int,struct _GUID const &)" (?CreateControlSite@CWnd@@MAEHPAVCOleControlContainer@@PAPAVCOleControlSite@@IABU_GUID@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "protected: virtual struct _AFX_OCC_DIALOG_INFO * __thiscall CDialog::GetOccDialogInfo(void)" (?GetOccDialogInfo@CDialog@@MAEPAU_AFX_OCC_DIALOG_INFO@@XZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall CDialog::Create(unsigned int,class CWnd *)" (?Create@CDialog@@UAEHIPAVCWnd@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall CDialog::Create(char const *,class CWnd *)" (?Create@CDialog@@UAEHPBDPAVCWnd@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall CDialog::CreateIndirect(void *,class CWnd *)" (?CreateIndirect@CDialog@@UAEHPAXPAVCWnd@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall CDialog::CreateIndirect(struct DLGTEMPLATE const *,class CWnd *,void *)" (?CreateIndirect@CDialog@@UAEHPBUDLGTEMPLATE@@PAVCWnd@@PAX@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "void __stdcall DDX_Text(class CDataExchange *,int,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &)" (?DDX_Text@@YGXPAVCDataExchange@@HAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "protected: void __thiscall CDialog::OnPaint(void)" (?OnPaint@CDialog@@IAEXXZ)
+ServerDlg.obj : error LNK2001: unresolved external symbol __time64
+USER2.obj : error LNK2001: unresolved external symbol __time64
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: int __thiscall CWnd::KillTimer(unsigned int)" (?KillTimer@CWnd@@QAEHI@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: int __thiscall CWnd::GetDlgItemTextA(int,class ATL::CStringT<char,class StrTraitMFC<char,class ATL::ChTraitsCRT<char> > > &)const " (?GetDlgItemTextA@CWnd@@QBEHHAAV?$CStringT@DV?$StrTraitMFC@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::CTimeSpan::CTimeSpan(__int64)" (??0CTimeSpan@ATL@@QAE@_J@Z)
+ServerDlg.obj : error LNK2001: unresolved external symbol __vsnprintf_s
+USER.obj : error LNK2001: unresolved external symbol __vsnprintf_s
+USER2.obj : error LNK2001: unresolved external symbol __vsnprintf_s
+ServerDlg.obj : error LNK2001: unresolved external symbol _strcpy_s
+USER.obj : error LNK2001: unresolved external symbol _strcpy_s
+USER2.obj : error LNK2001: unresolved external symbol _strcpy_s
+StdAfx.obj : error LNK2001: unresolved external symbol @_RTC_CheckStackVars2@12
+StdAfx.obj : error LNK2001: unresolved external symbol __alloca_probe_16
+StdAfx.obj : error LNK2001: unresolved external symbol @_RTC_AllocaHelper@12
+StdAfx.obj : error LNK2001: unresolved external symbol __resetstkoflw
+StdAfx.obj : error LNK2001: unresolved external symbol _wcscpy_s
+StdAfx.obj : error LNK2001: unresolved external symbol __recalloc
+Store.obj : error LNK2001: unresolved external symbol "public: class ATL::COleDateTime & __thiscall ATL::COleDateTime::operator+=(class ATL::COleDateTimeSpan)" (??YCOleDateTime@ATL@@QAEAAV01@VCOleDateTimeSpan@1@@Z)
+Store.obj : error LNK2001: unresolved external symbol "public: __thiscall ATL::COleDateTimeSpan::COleDateTimeSpan(double)" (??0COleDateTimeSpan@ATL@@QAE@N@Z)
+USER.obj : error LNK2001: unresolved external symbol "public: long __thiscall ATL::CTimeSpan::GetMinutes(void)const " (?GetMinutes@CTimeSpan@ATL@@QBEJXZ)
+USER.obj : error LNK2001: unresolved external symbol _strcat_s
+USER2.obj : error LNK2001: unresolved external symbol _strcat_s
+USER2.obj : error LNK2001: unresolved external symbol __mbslwr_s
+e:\DRCN_SERVER/Server.exe : fatal error LNK1120: 141 unresolved externals
+Ö´ÐÐ link.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+Server.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
