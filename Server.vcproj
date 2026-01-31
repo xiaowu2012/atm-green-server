@@ -3,9 +3,7 @@
 	ProjectType="Visual C++"
 	Version="9.00"
 	Name="Server"
-	ProjectGUID="{E49F0F43-5D33-4BB8-A0D6-B2B78240E1FE}"
-	SccProjectName="&quot;$/드로이얀서버&quot;, VIAAAAAA"
-	SccLocalPath="."
+	ProjectGUID="{8C96EA3D-C7EF-4BE5-9191-0ED3857DD50C}"
 	Keyword="MFCProj"
 	TargetFrameworkVersion="0"
 	>
